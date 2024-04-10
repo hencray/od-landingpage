@@ -1,0 +1,69 @@
+body {
+  background-color: #1f2937;
+  /* max-width: 400px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+h2 {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  margin-top: 0px;
+}
+.secondary-text {
+  color: grey;
+  font-size: 18px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+nav .logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.nav-links {
+  align-self: flex-end;
+}
+
+.hero1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero2 {
+  background-color: white;
+  width: 100%;
+}
+
+.herotext {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero2blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.h2block1 img {
+  display: block; /* Images are inline by default, setting to block allows margin auto to work */
+  margin: auto; /* This will center the image horizontally */
+}
